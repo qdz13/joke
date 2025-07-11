@@ -5,6 +5,15 @@ C言語のジョークプログラムです。
 
 奇妙なコードなので動作しないように見えますが、コンパイルでき、"joke"という文字列が出力されます。
 
+## コンパイル方法
+```sh
+git clone https://github.com/qdz13/joke.git
+cd joke
+chmod +x make.sh
+./make.sh
+```
+コンパイルにはGCCが必要です。
+
 ## 仕組み
 仕組みを説明します。
 
