@@ -9,10 +9,8 @@ C言語のジョークプログラムです。
 ```sh
 git clone https://github.com/qdz13/joke.git
 cd joke
-chmod +x make.sh
-./make.sh
+gcc joke.c -o joke -trigraphs -Wno-trigraphs
 ```
-コンパイルにはGCCが必要です。
 
 ## 仕組み
 仕組みを説明します。
